@@ -1,0 +1,7 @@
+Use graphics and sprites
+
+Make a two player version with one person controlling the cannon and
+one controlling the catcher.
+In two player game make ball shoot at random time.
+
+Require the ball to bounce first or extra points if it bounces first.
