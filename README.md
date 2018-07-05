@@ -101,12 +101,12 @@ of the BASICs have a way to make corrections.
 ### ZX Spectrum Sinclair BASIC ###
 
   As with other systems, use LIST <line number> to display the line with
-  the error, or use Up and Down arrow (CAPS SHIFT-7 and CAPS SHIFT-6
+  the error, or use Up and Down arrow (CAPS SHIFT+7 and CAPS SHIFT+6
   respectively) to select the line, shown by a > characater immediately
   to the right of the line number, then press CAPS SHIFT and 1 (for EDIT).
   This will display the line at the bottom of the screen where you can
-  use left and right arrows (CAPS SHIFT-5 and CAPS SHIFT 8 respectively)
+  use left and right arrows (CAPS SHIFT+5 and CAPS SHIFT+8 respectively)
   to move to the error and correct it. Typing will insert characters at
-  the cursor, press DELETE (CAPS SHIFT 0) to delete the character to the
+  the cursor, press DELETE (CAPS SHIFT+0) to delete the character to the
   left of the cursor. Like Commodore and IBM BASICs, you don't need to
   move to the end of the line before pressing ENTER.
