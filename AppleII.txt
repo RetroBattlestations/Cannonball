@@ -45,13 +45,13 @@
  660 GOTO 310
  
  1000 REM === Draw cannon
- 1010 P$="ANGLE: "+STR$(CA)+" ":X1%=2:Y1%=1:GOSUB 3510
- 1030 IF (CA = LA) THEN RETURN
- 1040 LX = CN * COS((360 - LA) * PI / 180):LY = CN * SIN((360 - LA) * PI / 180)
- 1050 X1 = CX:Y1 = RW:X2 = X1 + LX:Y2 = Y1 + LY:P$ = " ":GOSUB 3010
- 1060 LX = CN * COS((360 - CA) * PI / 180):LY = CN * SIN((360 - CA) * PI / 180)
- 1070 X2 = X1 + LX:Y2 = Y1 + LY:P$= "%":GOSUB 3010
- 1080 LA=CA:RETURN
+ 1010 IF (CA = LA) THEN RETURN
+ 1020 P$="ANGLE: "+STR$(CA)+" ":X1%=2:Y1%=1:GOSUB 3510
+ 1030 LX = CN * COS((360 - LA) * PI / 180):LY = CN * SIN((360 - LA) * PI / 180)
+ 1040 X1 = CX:Y1 = RW:X2 = X1 + LX:Y2 = Y1 + LY:P$ = " ":GOSUB 3010
+ 1050 LX = CN * COS((360 - CA) * PI / 180):LY = CN * SIN((360 - CA) * PI / 180)
+ 1060 X2 = X1 + LX:Y2 = Y1 + LY:P$= "%":GOSUB 3010
+ 1070 LA=CA:RETURN
 
  1500 REM === Draw ball
  1510 X1% = BX:Y1% = BY:P$="o":GOSUB 3510
