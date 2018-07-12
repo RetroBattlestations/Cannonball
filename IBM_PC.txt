@@ -4,7 +4,7 @@
  130 REM === IBM PC ASCII version by AgentOrange96
 
  200 REM === Clear screen and setup variables
- 210 HOME
+ 210 CLS
  220 CL = 80:RW = 24:REM Columns and Rows of screen
  230 CA = 45:CN = 5:REM Angle and length of cannon
  240 CX = 5:PX = CL-5:SC = 0:LV = 3
